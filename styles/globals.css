@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+:root {
+  --heading:#72a107;
+  --primary: :rgb(93, 92, 92);
+  --secondary: #f2f0f0;
+  --dark: #181818f6;
+ 
+}
+body {
+  background: var(--secondary);
+  font-family: "Varela Round";
+  text-decoration: none;
+}
+
+.one{
+  color:white;
+}
+.logo{
+  color:var(--dark),
+}
+
+.logo:hover {
+  color: var(--dark);
+}
+
+.logo:focus {
+  color: var(--dark);
+}
+
+
+a {
+  text-decoration: none;
+  margin-left: 20px;
+  color:rgb(93, 92, 92);
+  font-size: 18px;
+
+}
+
+a:hover {
+  color: var(--heading);
+}
+
+a:focus {
+  color: var(--heading);
+}
+
+.img{
+  width:220px;
+  height:auto
+}
+
+.graphic{
+  width:500px;
+  height:auto;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.graphic1{
+  width:500px;
+  height:auto;
+  
+}
+
+.linkText{
+  margin-left:5px;
+}
+
+.projectLink{
+  margin-left:0px;
+
+}
+
+.not-found {
+  text-align: center;
+}
+.not-found a{
+  color: #4979ff;
+  text-decoration: underline;
+}
+
+.me{
+  margin: 20px 20px 0px;
+  border-radius:10px;
+  width:150px;
+  height:150px; 
+}
+
+
+.skills{
+  margin: 20px 20px 1px 20px;
+  border-radius:10px;
+  width:50px;
+  height:50px; 
+}
+
+.test{
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+  font-weight: 100;
+  justify-items:flex-end;
+
+
+}
+
+@media screen and (max-width: 540px){
+
+  .graphic,
+  .graphic1, h3 {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    margin-bottom: 50px;
+  }
+
+  .skills{
+    margin: 20px 20px 1px 5px;
+   
+  }
+
+  .me{
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    border-radius:10px;
+    width:150px;
+    height:150px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  a {
+    font-size: 15px;
+    margin-left: 10px;
+    
+  }
+                    
+}
+
+@media screen and (max-width: 414px){
+  .img{
+    width: 350px;
+    height:auto;
+
+  }
+}
+
+@media screen and (max-width: 360px){
+  .img{
+    width: 320px;
+    height:auto;
+
+  }
+}
+@media screen and (max-width: 280px){
+  .img{
+    width: 250px;
+    height:auto;
+
+  }
+}
+
+
