@@ -149,6 +149,12 @@ const About = () => {
                     .container{
                         margin:30px 20px 40px; 20px;
                         }
+                          
+                      h3{
+                        
+                            margin: 20px 5px 5px 5px;
+                           
+                        }
                          
                         p{
                          margin:3px 6px;
