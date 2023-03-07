@@ -146,7 +146,7 @@ const Projects = () => {
                 <div className='desc'><b>Retro40</b>
                 <Link target="_blank" href = "https://github.com/paulgreenwood67/Retro40" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
                 </div>
-                <p>This is a React/Express appliction reteaving data about vintage cars from a local JSON file. Deployed to Github<br></br><br></br> (Design not responsive)</p>
+                <p>This is a React/Express appliction reteaving data from a local JSON file. Deployed to Github<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
                 
