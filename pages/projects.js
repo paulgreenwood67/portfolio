@@ -26,11 +26,11 @@ const Projects = () => {
                      
                 <div className="grid">
 
-          <Link target="_blank" href = "https://island-hoppers.herokuapp.com/" className='projectLink'>
+            <Link target="_blank" href = "https://island-hoppers.herokuapp.com/" className='projectLink'>
                 <div className="gallery projectLink">
                 <Image className='img' src ={hoppers} />
                 <div className='desc'><b>Island Hoppers</b></div>
-                <p>A full stack MERN blog app about visits Greek Islands.<br></br> This application is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
+                <p>A full stack MERN blog app about visits Greek Islands. This application is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
 
@@ -70,7 +70,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={wedding} />
                 <div className='desc'><b>Wedding Photgraphy</b></div>
-                <p>My wedding photography.<br></br> This is a Squarespace website which I built before I learnt how to code.</p>
+                <p>This is a Squarespace website which I built before I learnt how to code.</p>
                 </div>
             </Link>
 
@@ -78,7 +78,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={lifestyle} />
                 <div className='desc'><b>Lifestyle Photgraphy</b></div>
-                <p>My lifestyle photography.<br></br> This is a Squarespace website which I built before I learnt how to code.</p>
+                <p>This is a Squarespace website which I built before I learnt how to code.</p>
                 </div>
             </Link>
 
@@ -86,7 +86,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={cuba} />
                 <div className='desc'><b>Street Photography</b> </div>
-                <p>My street photography be viewed on my street photography Instagram.</p>
+                <p>This is my street photography Instagram.</p>
                 </div>
             </Link>
            
@@ -104,7 +104,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={portfolio} />
                 <div className='desc'><b>HTML Portfolio</b></div>
-                <p>A early Portfolio app built <br></br> with HTML, CSS and some JavaScript. This application is deployed on Vercel.<br></br><br></br> (Responsive design)</p>
+                <p>A early Portfolio app built with HTML, CSS and some JavaScript. This application is deployed on Vercel.<br></br><br></br> (Responsive design)</p>
                 </div>
             </Link> 
 
@@ -142,11 +142,6 @@ const Projects = () => {
                 </div>
             </Link>
                 
-           
-           
-            
-            
-            
             </div>
 
         <style jsx>{`
@@ -160,8 +155,6 @@ const Projects = () => {
         .img{
             width:220px
             heightauto 
-
-
         }
 
         .grid{
@@ -183,8 +176,6 @@ const Projects = () => {
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
           }
           
-       
-          
           div.desc {
             padding: 15px 15px 15px 15px;
             text-align: left;
@@ -196,20 +187,13 @@ const Projects = () => {
             text-align: left;
             font-size:10pt;
             margin-top:0%;
-            padding-right:5px
-          }
-        
-
-          @media screen and (max-width: 1280px){
-
-        
+            padding-right:7px
           }
 
           @media screen and (max-width: 912px){
                 
             .grid{
                 grid-template-columns:1fr 1fr 1fr;
-               
                 margin-top: 50px; 
                
             }
@@ -269,20 +253,13 @@ const Projects = () => {
             
               }
         }
-
-        
         `}</style>
- 
-    
- 
-        
-
-        
-       
          </div>
      );
 }
  
 export default Projects;
+
+
 
 
