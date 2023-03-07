@@ -82,11 +82,11 @@ const Projects = () => {
                 </div>
             </Link>
 
-            <Link target="_blank" href = "https://www.instagram.com/pg_streetphotography" className='projectLink' >
+             <Link target="_blank" href = "https://www.instagram.com/pg_streetphotography" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={cuba} />
                 <div className='desc'><b>Street Photography</b> </div>
-                <p>This is my street photography Instagram.</p>
+                <p>This is my street photography Instagram account where you can follow me if you wish.</p>
                 </div>
             </Link>
            
