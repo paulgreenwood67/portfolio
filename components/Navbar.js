@@ -101,7 +101,7 @@ const Navbar = () => {
 
 
                     
-                    @media screen and (max-width: 280px){
+                    @media screen and (max-width: 320px){
 
                       .brand{
                         font-size:25pt;
