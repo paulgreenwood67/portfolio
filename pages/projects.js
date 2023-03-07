@@ -83,7 +83,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={lifestyle} />
                 <div className='desc'><b>Lifestyle Photgraphy</b></div>
-                <p>This is also a Squarespace website and again I built before I learnt how to code.</p>
+                <p>This is the same Squarespace website that I built before I learnt how to code.</p>
                 </div>
             </Link>
 
