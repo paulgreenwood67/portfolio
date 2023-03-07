@@ -17,10 +17,6 @@ import graphic from '../static/graphic.png';
 import GitHub from '../static/GitHub.png';
 
 
-
-
-
-
 const Projects = () => {
     return ( 
                 <div className = "container" >
