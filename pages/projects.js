@@ -17,19 +17,23 @@ import graphic from '../static/graphic.png';
 import GitHub from '../static/GitHub.png';
 
 
+
+
+
+
 const Projects = () => {
     return ( 
                 <div className = "container" >
                      
                 <div className="grid">
 
-           <Link target="_blank" href = "https://island-hoppers.herokuapp.com/" className='projectLink'>
+            <Link target="_blank" href = "https://island-hoppers.herokuapp.com/" className='projectLink'>
                 <div className="gallery projectLink">
                 <Image className='img' src ={hoppers} />
                 <div className='desc'><b>Island Hoppers</b>
                 <Link target="_blank" href = "https://github.com/paulgreenwood67/Island-Hoppers-App" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
                 </div>
-                <p>A full stack MERN blog app about visits to Greek islands. This application is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
+                <p>A full stack MERN blog app about visits Greek Islands. This application is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
 
@@ -75,7 +79,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={wedding} />
                 <div className='desc'><b>Wedding Photgraphy</b></div>
-                <p>This is a Squarespace website and I built this before I learnt how to code.</p>
+                <p>This is a Squarespace website which I built before I learnt how to code.</p>
                 </div>
             </Link>
 
@@ -83,7 +87,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={lifestyle} />
                 <div className='desc'><b>Lifestyle Photgraphy</b></div>
-                <p>This is the same Squarespace website that I built before I learnt how to code.</p>
+                <p>This is a Squarespace website which I built before I learnt how to code.</p>
                 </div>
             </Link>
 
@@ -155,6 +159,7 @@ const Projects = () => {
                 <p>A React app built using React Router of a fictitious clothing company. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
+                
            
            
             
@@ -163,6 +168,10 @@ const Projects = () => {
             </div>
 
         <style jsx>{`
+
+        .test{
+            display:inline;
+        }
 
         .container {
              
@@ -218,7 +227,7 @@ const Projects = () => {
         
           }
 
-          @media screen and (max-width: 912px){
+          @media screen and (max-width: 970px){
                 
             .grid{
                 grid-template-columns:1fr 1fr 1fr;
@@ -228,14 +237,14 @@ const Projects = () => {
             }
         
         
-          @media screen and (max-width: 540px){
+          @media screen and (max-width: 740px){
                 
             .grid{
                 grid-template-columns:1fr 1fr;
                 grid-gap:20px  20px; 
             }
          
-        @media screen and (max-width: 414px){
+        @media screen and (max-width: 495px){
                 
             .grid{
                 grid-template-columns:1fr;
@@ -291,18 +300,14 @@ const Projects = () => {
 
         
         `}</style>
- 
-    
- 
-        
-
-        
        
          </div>
      );
 }
  
 export default Projects;
+
+
 
 
 
