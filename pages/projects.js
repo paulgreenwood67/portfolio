@@ -66,14 +66,6 @@ const Projects = () => {
                 </div>
             </Link>
 
-            <Link target="_blank" href = "https://paulgreenwoodphotography.uk/gallery-2" className='projectLink' >
-                <div className="gallery">
-                <Image className='img' src ={wedding} />
-                <div className='desc'><b>Wedding Photgraphy</b></div>
-                <p>This is a Squarespace website which I built before I learnt how to code.</p>
-                </div>
-            </Link>
-
             <Link target="_blank" href = "https://paulgreenwoodphotography.uk/gallery" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={lifestyle} />
