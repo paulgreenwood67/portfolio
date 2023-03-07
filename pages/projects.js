@@ -14,6 +14,7 @@ import hoppers from '../static/hoppers.png';
 import wedding from '../static/wedding.jpeg';
 import lifestyle from '../static/lifestyle.jpeg';
 import graphic from '../static/graphic.png';
+import GitHub from '../static/GitHub.png';
 
 
 
