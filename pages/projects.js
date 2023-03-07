@@ -54,7 +54,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={todo}  />
                 <div className='desc'><b>2DO </b></div>
-                <p>A Full Stack to-do application built with register & sign-in authentication. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
+                <p>A Full Stack app built with authentication. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
 
@@ -112,7 +112,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={hangman}  />
                 <div className='desc'><b>Hangman </b></div>
-                <p>An app built using React using the popular childrens game of Hangman. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
+                <p>Built using React using the popular childrens game of Hangman. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                  </div>
             </Link>
 
@@ -142,6 +142,11 @@ const Projects = () => {
                 </div>
             </Link>
                 
+           
+           
+            
+            
+            
             </div>
 
         <style jsx>{`
@@ -155,6 +160,8 @@ const Projects = () => {
         .img{
             width:220px
             heightauto 
+
+
         }
 
         .grid{
@@ -176,6 +183,8 @@ const Projects = () => {
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
           }
           
+       
+          
           div.desc {
             padding: 15px 15px 15px 15px;
             text-align: left;
@@ -187,13 +196,20 @@ const Projects = () => {
             text-align: left;
             font-size:10pt;
             margin-top:0%;
-            padding-right:7px
+            padding-right:12px
+          }
+        
+
+          @media screen and (max-width: 1280px){
+
+        
           }
 
           @media screen and (max-width: 912px){
                 
             .grid{
                 grid-template-columns:1fr 1fr 1fr;
+               
                 margin-top: 50px; 
                
             }
@@ -220,6 +236,12 @@ const Projects = () => {
                 height:400px;
             
               }
+
+              p{
+               
+                padding-right:17px
+              }
+            
         }
 
 
@@ -253,7 +275,16 @@ const Projects = () => {
             
               }
         }
+
+        
         `}</style>
+ 
+    
+ 
+        
+
+        
+       
          </div>
      );
 }
