@@ -71,6 +71,11 @@ a:focus {
 
 }
 
+.gitHubLink{
+  float:right
+
+}
+
 .not-found {
   text-align: center;
 }
