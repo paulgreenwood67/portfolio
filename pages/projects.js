@@ -29,7 +29,7 @@ const Projects = () => {
                 <div className='desc'><b>Island Hoppers</b>
                 <Link target="_blank" href = "https://github.com/paulgreenwood67/Island-Hoppers-App" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
                 </div>
-                <p>A full stack MERN blog app about visits Greek Islands. This application is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
+                <p>A full stack MERN blog app about visits to Greek Islands. This application is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
 
