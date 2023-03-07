@@ -26,10 +26,12 @@ const Projects = () => {
                      
                 <div className="grid">
 
-            <Link target="_blank" href = "https://island-hoppers.herokuapp.com/" className='projectLink'>
+           <Link target="_blank" href = "https://island-hoppers.herokuapp.com/" className='projectLink'>
                 <div className="gallery projectLink">
                 <Image className='img' src ={hoppers} />
-                <div className='desc'><b>Island Hoppers</b></div>
+                <div className='desc'><b>Island Hoppers</b>
+                <Link target="_blank" href = "https://github.com/paulgreenwood67/Island-Hoppers-App" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
+                </div>
                 <p>A full stack MERN blog app about visits Greek Islands. This application is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
@@ -37,7 +39,9 @@ const Projects = () => {
             <Link target="_blank" href = "https://inventory-app-cars.herokuapp.com/" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={cars}/>
-                <div className='desc'><b>Car Inventory</b></div>
+                <div className='desc'><b>Car Inventory</b>
+                <Link target="_blank" href = "https://github.com/paulgreenwood67/Car-Inventory-App" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
+                </div>
                 <p>A full stack MERN inventory app for cars. This application is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
@@ -45,7 +49,9 @@ const Projects = () => {
             <Link target="_blank" href = "https://next-js-star-wars.vercel.app/" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={starwars}  />
-                <div className='desc'><b>Start Wars </b></div>
+                <div className='desc'><b>Start Wars </b>
+                <Link target="_blank" href = "https://github.com/paulgreenwood67/NextJS---Star-Wars" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
+                </div>
                 <p>This a NextJS app displaying Star Wars data from an API called SWAPI. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
@@ -53,7 +59,9 @@ const Projects = () => {
             <Link target="_blank" href = "https://full-stack-to-do.vercel.app/" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={todo}  />
-                <div className='desc'><b>2DO </b></div>
+                <div className='desc'><b>2DO </b>
+                <Link target="_blank" href = "https://github.com/paulgreenwood67/2DO-app" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
+                </div>
                 <p>A Full Stack app built with authentication. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
@@ -82,7 +90,7 @@ const Projects = () => {
                 </div>
             </Link>
 
-             <Link target="_blank" href = "https://www.instagram.com/pg_streetphotography" className='projectLink' >
+            <Link target="_blank" href = "https://www.instagram.com/pg_streetphotography" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={cuba} />
                 <div className='desc'><b>Street Photography</b> </div>
@@ -103,7 +111,9 @@ const Projects = () => {
             <Link target="_blank" href = "https://html-portfolio-zeta.vercel.app/index.html" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={portfolio} />
-                <div className='desc'><b>HTML Portfolio</b></div>
+                <div className='desc'><b>HTML Portfolio</b>
+                <Link target="_blank" href = "https://github.com/paulgreenwood67/HTML-Portfolio" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
+                </div>
                 <p>A early Portfolio app built with HTML, CSS and some JavaScript. This application is deployed on Vercel.<br></br><br></br> (Responsive design)</p>
                 </div>
             </Link> 
@@ -111,7 +121,9 @@ const Projects = () => {
             <Link target="_blank" href = "https://hangman-fawn.vercel.app/" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={hangman}  />
-                <div className='desc'><b>Hangman </b></div>
+                <div className='desc'><b>Hangman </b>
+                <Link target="_blank" href = "https://github.com/paulgreenwood67/Hangman" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
+                </div>
                 <p>Built using React using the popular childrens game of Hangman. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                  </div>
             </Link>
@@ -119,7 +131,9 @@ const Projects = () => {
             <Link target="_blank" href = "https://github.com/paulgreenwood67/iTunes-App" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={Itunes}  />
-                <div className='desc'><b>iTunes search </b></div>
+                <div className='desc'><b>iTunes search </b>
+                <Link target="_blank" href = "https://github.com/paulgreenwood67/iTunes" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
+                </div>
                 <p>This is a full stack application retreaving information from a iTunes API. Deployed to GitHub</p>
                 </div>
             </Link>
@@ -128,7 +142,9 @@ const Projects = () => {
             <Link target="_blank" href = "https://github.com/paulgreenwood67/Retro-40" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={retro} />
-                <div className='desc'><b>Retro40</b></div>
+                <div className='desc'><b>Retro40</b>
+                <Link target="_blank" href = "https://github.com/paulgreenwood67/Retro40" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
+                </div>
                 <p>This is a React/Express appliction reteaving data about vintage cars from a local JSON file. Deployed to Github</p>
                 </div>
             </Link>
@@ -137,11 +153,11 @@ const Projects = () => {
             <Link target="_blank" href = "https://clothing-company.vercel.app/" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={cover} />
-                <div className='desc'><b>Clothing Company</b></div>
+                <div className='desc'><b>Clothing Co</b>
+                <Link target="_blank" href = "https://github.com/paulgreenwood67/Clothing-Company" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link></div>
                 <p>A React app built using React Router of a fictitious clothing company. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
-                
            
            
             
