@@ -26,11 +26,11 @@ const Projects = () => {
                      
                 <div className="grid">
 
-            <Link target="_blank" href = "https://island-hoppers.herokuapp.com/" className='projectLink'>
+          <Link target="_blank" href = "https://island-hoppers.herokuapp.com/" className='projectLink'>
                 <div className="gallery projectLink">
                 <Image className='img' src ={hoppers} />
                 <div className='desc'><b>Island Hoppers</b></div>
-                <p>A full stack MERN blog app about visits Greek Islands.<br></br> This application is deployed<br></br> on Heroku.<br></br><br></br> (Design not responsive)</p>
+                <p>A full stack MERN blog app about visits Greek Islands.<br></br> This application is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
 
@@ -38,7 +38,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={cars}/>
                 <div className='desc'><b>Car Inventory</b></div>
-                <p>A full stack MERN inventory app for cars. This application<br></br> is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
+                <p>A full stack MERN inventory app for cars. This application is deployed on Heroku.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
 
@@ -46,7 +46,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={starwars}  />
                 <div className='desc'><b>Start Wars </b></div>
-                <p>This a NextJS app displaying Star Wars data from an API called SWAPI. This application<br></br> is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
+                <p>This a NextJS app displaying Star Wars data from an API called SWAPI. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
 
@@ -54,7 +54,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={todo}  />
                 <div className='desc'><b>2DO </b></div>
-                <p>A Full Stack to-do application built with register & sign-in authentication. This application<br></br> is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
+                <p>A Full Stack to-do application built with register & sign-in authentication. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
 
@@ -70,7 +70,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={wedding} />
                 <div className='desc'><b>Wedding Photgraphy</b></div>
-                <p>My wedding photography.<br></br> This is a Squarespace website which I built before I learnt <br></br>how to code.</p>
+                <p>My wedding photography.<br></br> This is a Squarespace website which I built before I learnt how to code.</p>
                 </div>
             </Link>
 
@@ -78,7 +78,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={lifestyle} />
                 <div className='desc'><b>Lifestyle Photgraphy</b></div>
-                <p>My lifestyle photography.<br></br> This is a Squarespace website which I built before I learnt <br></br>how to code.</p>
+                <p>My lifestyle photography.<br></br> This is a Squarespace website which I built before I learnt how to code.</p>
                 </div>
             </Link>
 
@@ -104,7 +104,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={portfolio} />
                 <div className='desc'><b>HTML Portfolio</b></div>
-                <p>A early Portfolio app built <br></br> with HTML, CSS and some JavaScript. This application<br></br> is deployed on Vercel.<br></br><br></br> (Responsive design)</p>
+                <p>A early Portfolio app built <br></br> with HTML, CSS and some JavaScript. This application is deployed on Vercel.<br></br><br></br> (Responsive design)</p>
                 </div>
             </Link> 
 
@@ -112,7 +112,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={hangman}  />
                 <div className='desc'><b>Hangman </b></div>
-                <p>An app built using React using the popular childrens game of Hangman. This application<br></br> is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
+                <p>An app built using React using the popular childrens game of Hangman. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                  </div>
             </Link>
 
@@ -120,7 +120,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={Itunes}  />
                 <div className='desc'><b>iTunes search </b></div>
-                <p>This is a full stack application retreaving information from a iTunes API. Deployed to <br></br>GitHub</p>
+                <p>This is a full stack application retreaving information from a iTunes API. Deployed to GitHub</p>
                 </div>
             </Link>
                 
@@ -129,7 +129,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={retro} />
                 <div className='desc'><b>Retro40</b></div>
-                <p>This is a React/Express appliction reteaving data<br></br> about vintage cars from a<br></br> local JSON file. Deployed to Github</p>
+                <p>This is a React/Express appliction reteaving data about vintage cars from a local JSON file. Deployed to Github</p>
                 </div>
             </Link>
                 
@@ -138,7 +138,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={cover} />
                 <div className='desc'><b>Clothing Company</b></div>
-                <p>A React app built using React Router of a fictitious clothing company. This application<br></br> is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
+                <p>A React app built using React Router of a fictitious clothing company. This application is deployed on Vercel.<br></br><br></br> (Design not responsive)</p>
                 </div>
             </Link>
                 
