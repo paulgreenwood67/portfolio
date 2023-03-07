@@ -208,7 +208,7 @@ const Projects = () => {
        
           
           div.desc {
-            padding: 15px 15px 15px 15px;
+            padding: 15px 10px 15px 15px;
             text-align: left;
           }
 
