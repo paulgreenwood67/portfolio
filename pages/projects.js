@@ -58,6 +58,14 @@ const Projects = () => {
                 </div>
             </Link>
 
+            <Link target="_blank" href = "/graphics" className='projectLink' >
+                <div className="gallery">
+                <Image className='img' src ={graphic}  />
+                <div className='desc'><b>Graphic Design</b></div>
+                <p>Here you will find a sample of some of my Graphic Design work.</p>
+                </div>
+            </Link>
+
             <Link target="_blank" href = "https://paulgreenwoodphotography.uk/gallery-2" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={wedding} />
