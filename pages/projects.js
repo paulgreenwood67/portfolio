@@ -79,7 +79,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={wedding} />
                 <div className='desc'><b>Wedding Photography</b></div>
-                <p>This is a Squarespace website which I built before I learnt how to code.</p>
+                <p>A Squarespace website I built before I learnt how to code.</p>
                 </div>
             </Link>
 
@@ -87,7 +87,7 @@ const Projects = () => {
                 <div className="gallery">
                 <Image className='img' src ={lifestyle} />
                 <div className='desc'><b>Lifestyle Photography</b></div>
-                <p>This is a Squarespace website which I built before I learnt how to code.</p>
+                <p>The same Squarespace website I built before I learnt how to code.</p>
                 </div>
             </Link>
 
