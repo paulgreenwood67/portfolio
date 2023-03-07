@@ -58,7 +58,7 @@ const Projects = () => {
                 </div>
             </Link>
 
-            <Link target="_blank" href = "/graphics" className='projectLink' >
+            <Link href = "/graphics" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={graphic}  />
                 <div className='desc'><b>Graphic Design</b></div>
