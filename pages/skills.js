@@ -26,7 +26,7 @@ const Skills = () => {
             <p><b>React JS:</b>  building user interfaces and managing the state of applications.</p>
             <p><b>Express JS: </b>  building server-side applications and APIs.</p>
             <p><b>MongoDB:</b> storing and managing data for web applications.</p><br></br>
-            <p>Overall, the bootcamp taught me the skills I need to build a web application from scratch, from designing the user interface to building the server-side and database components as well as deploying applications to platforms like Vercel, Heroku, and Github.</p>
+            <p>Overall, the bootcamp taught me the skills I need to build a web applications from scratch, from designing the user interface to building the server-side and database components as well as deploying applications to platforms like Vercel, Heroku, and Github.</p>
 
                 
             <Image className="skills" src ={design} alt="me" />
@@ -153,22 +153,7 @@ const Skills = () => {
                             p{
                                 margin:3px 6px;
                             }
-                    @media screen and (max-width: 280px){
-
-                          
-                               
-                            }
-                         
-                          
-
-         
-                
-                  
-                    }
-
-               
-
-               
+      
             `}</style>
 
             </div>
