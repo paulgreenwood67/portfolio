@@ -77,7 +77,7 @@ export default function Home(){
               }
 
 
-              @media screen and (max-width: 540px){
+              @media screen and (max-width: 680px){
                 
                 .hide2{
                   display:none
