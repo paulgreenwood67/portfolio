@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image';
 import Haslam1 from '../static/Haslam2.jpeg';
 import Haslam2 from '../static/Haslam2.jpeg';
@@ -99,7 +98,7 @@ const Projects = () => {
                 
             .grid{
                 grid-template-columns:1fr;
-                margin-left: 16px;
+                margin-left: 0px;
                
             }
         }
@@ -120,6 +119,7 @@ const Projects = () => {
             .grid{
                 grid-template-columns:1fr;
                 grid-gap:1px 1px; 
+                margin-left: 0px;
             }
         }
 
@@ -147,5 +147,7 @@ const Projects = () => {
 
  
 export default Projects;
+
+
 
 
