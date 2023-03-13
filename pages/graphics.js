@@ -28,10 +28,10 @@ import livingcanal from '../static/livingcanal.jpeg';
 const Projects = () => {
     return ( 
                 <div className = "container" >
-                     
+               
                 <div className="grid">
+                     
 
-            
                
                <h3>Park signage for Lancashire Wildlife Trust</h3>
                 <Image className='graphic' src ={Haslam1} />
@@ -74,23 +74,23 @@ const Projects = () => {
                 <h3>Flyer for Preston City Council</h3>
                 <Image className='graphic' src ={ladies} />
                
-            </div>
+                </div>
 
         <style jsx>{`
 
         .container {
-             
+    
             display:flex;
             justify-content: center;
         }
-
+                       
         .grid{
             display:grid;
-            grid-template-columns:1fr;
+            
             margin-bottom: 70px
             margin-top: 50px; 
         }
-
+ 
         h3{
             margin-bottom: 10px
         }
@@ -99,8 +99,10 @@ const Projects = () => {
                 
             .grid{
                 grid-template-columns:1fr;
+                margin-left: 16px;
                
             }
+        }
         
         @media screen and (max-width: 540px){
                 
@@ -110,8 +112,8 @@ const Projects = () => {
                 margin-bottom: 70px;
                 margin-top: 30px;
                 align-items: center;
-              }
-         
+}
+    
 }
         @media screen and (max-width: 414px){
                 
@@ -119,6 +121,7 @@ const Projects = () => {
                 grid-template-columns:1fr;
                 grid-gap:1px 1px; 
             }
+        }
 
         @media screen and (max-width: 360px){
                 
@@ -141,6 +144,7 @@ const Projects = () => {
          </div>
      );
 }
+
  
 export default Projects;
 
