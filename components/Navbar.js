@@ -30,6 +30,8 @@ const Navbar = () => {
         
          <style jsx>{`
 
+                 
+
          
                   nav {
               
@@ -41,6 +43,8 @@ const Navbar = () => {
                     z-index: 99;
                     background: var(--secondary);
                   }
+                  
+                 
                   
                   .one{
                     color: white;
@@ -57,7 +61,8 @@ const Navbar = () => {
                   }
                   .linkedIn-container {
                     margin-left: auto;
-                    margin-right:50px
+                    padding:4px 30px 5px 10px;
+                   
                   }
 
                 
@@ -77,33 +82,26 @@ const Navbar = () => {
                       margin-top:6px;
                       margin-left: 0px;
                     }
-                   }
-                    
-           
+
+                    .linkedIn-container {
+                      margin-left: auto;
+                      padding:4px 0px 0px 10px;
+                     
+                    }
+  
+                    }
+
+
                   @media screen and (max-width: 412px){
                 
                   }
                   .linkedIn-container {
                    
-                    margin-right:5px;
+                    margin-right:10px;
                   }
 
                       }
 
-                  @media screen and (max-width: 360px){
-
-                    .linkedIn-container { 
-                       margin-right:40px
-                     }
-      
-      
-                  }
-                        
-                     
-
-
-
-                    
                     @media screen and (max-width: 320px){
 
                       .brand{
@@ -116,11 +114,7 @@ const Navbar = () => {
                        
                        display:none
                       }
-                      
-                      
-                   
-                
-                    
+
                 
             `}</style>
       
