@@ -79,13 +79,16 @@ const Navbar = () => {
                     }
                    }
                     
+           
                   @media screen and (max-width: 412px){
-                  
-                    .linkedIn-container {
-                      margin-right:15px;
-                    }
+                
+                  }
+                  .linkedIn-container {
+                   
+                    margin-right:5px;
+                  }
 
-                 }
+                      }
 
                   @media screen and (max-width: 360px){
 
