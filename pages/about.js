@@ -1,4 +1,3 @@
-
 import Link from 'next/link'
 import Image from 'next/image';
 
@@ -53,7 +52,7 @@ const About = () => {
                 .container{
                     width:fit-content;
                     background:white;
-                    margin:30px 180px 40px; 20px;
+                    margin:30px 100px 40px; 20px;
                     border-radius:10px;
                     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
                     backdrop-filter: blur(5px);
@@ -137,7 +136,7 @@ const About = () => {
                 @media screen and (max-width: 768px){
 
                     .container{
-                        margin:30px 80px 40px; 20px;
+                        margin:30px 20px 40px; 20px;
                     }
                      
                     p{
@@ -149,8 +148,8 @@ const About = () => {
                     .container{
                         margin:30px 20px 40px; 20px;
                         }
-                          
-                      h3{
+
+                        h3{
                         
                             margin: 20px 5px 5px 5px;
                            
