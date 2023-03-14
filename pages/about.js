@@ -39,7 +39,7 @@ const About = () => {
 
                 
             <h3>Find out more</h3>
-            <p>In the rest of this webiste you can find out more details of my skills on the<Link href="/skills" className='linkText'><b style={{ color:'var(--heading)'}}>'skills'</b></Link> page and you can see some examples of the projects I worked on during my bootcamp on the<Link href="/projects" className='linkText'><b style={{ color:'var(--heading)'}}>'projects'</b></Link> page. Here you will also find examples of my Graphic Design and Photography.</p>
+            <p>In the rest of this website you can find out more details of my skills on the<Link href="/skills" className='linkText'><b style={{ color:'var(--heading)'}}>'skills'</b></Link> page and you can see some examples of the projects I worked on during my bootcamp on the<Link href="/projects" className='linkText'><b style={{ color:'var(--heading)'}}>'projects'</b></Link> page. Here you will also find examples of my Graphic Design and Photography.</p>
            
            
          
