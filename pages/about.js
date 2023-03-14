@@ -35,7 +35,7 @@ const About = () => {
 
 
             <br></br><br></br>As well as this 
-            I also have experience in Communictaions and Community Engagement but I won't go into details about these here, after all that is what<Link href="https://www.linkedin.com/in/paul-greenwood-86183820/" className='linkText'><b style={{ color:'var(--heading)'}}>LinkedIn </b></Link>is for!</p>
+            I also have experience in Communications and Comumunity Engagement but I won't go into details about these here, after all that is what<Link href="https://www.linkedin.com/in/paul-greenwood-86183820/" className='linkText'><b style={{ color:'var(--heading)'}}>LinkedIn </b></Link>is for!</p>
 
                 
             <h3>Find out more</h3>
