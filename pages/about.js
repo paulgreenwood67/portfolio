@@ -1,16 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image';
-
 import me from '../static/me.jpeg';
 
 
 const About = () => {
-
-    
-    
     return ( 
-        
-
        <div className="container">
             <Image className="me" src ={me} alt="me" />
           
@@ -30,10 +24,6 @@ const About = () => {
 
             To provide some background, I have extensive experience as a Graphic Designer and Photographer. By adding coding skills to my repertoire, I am able to offer potential employers a more comprehensive skillset and expand the range of services I can provide. Overall, the bootcamp was a transformative experience that has enhanced my professional prospects, and I am eager to apply my newfound knowledge to future projects.
 
-
-
-
-
             <br></br><br></br>As well as this 
             I also have experience in Communications and Comumunity Engagement but I won't go into details about these here, after all that is what<Link href="https://www.linkedin.com/in/paul-greenwood-86183820/" className='linkText'><b style={{ color:'var(--heading)'}}>LinkedIn </b></Link>is for!</p>
 
@@ -41,13 +31,6 @@ const About = () => {
             <h3>Find out more</h3>
             <p>In the rest of this website you can find out more details of my skills on the<Link href="/skills" className='linkText'><b style={{ color:'var(--heading)'}}>'skills'</b></Link> page and you can see some examples of the projects I worked on during my bootcamp on the<Link href="/projects" className='linkText'><b style={{ color:'var(--heading)'}}>'projects'</b></Link> page. Here you will also find examples of my Graphic Design and Photography.</p>
            
-           
-         
-          
-           
-            
-
-
 <style jsx>{`
                 .container{
                     width:fit-content;
@@ -163,9 +146,6 @@ const About = () => {
 
             </div>
 
-   
-
-        
      );
 }
  
