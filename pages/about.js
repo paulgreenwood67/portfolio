@@ -25,7 +25,7 @@ const About = () => {
             To provide some background, I have extensive experience as a Graphic Designer and Photographer. By adding coding skills to my repertoire, I am able to offer potential employers a more comprehensive skillset and expand the range of services I can provide. Overall, the bootcamp was a transformative experience that has enhanced my professional prospects, and I am eager to apply my newfound knowledge to future projects.
 
             <br></br><br></br>As well as this 
-            I also have experience in Communications and Comumunity Engagement but I won't go into details about these here, after all that is what<Link href="https://www.linkedin.com/in/paul-greenwood-86183820/" className='linkText'><b style={{ color:'var(--heading)'}}>LinkedIn </b></Link>is for!</p>
+            I also have experience in Communications and Community Engagement but I won't go into details about these here, after all that is what<Link href="https://www.linkedin.com/in/paul-greenwood-86183820/" className='linkText'><b style={{ color:'var(--heading)'}}>LinkedIn </b></Link>is for!</p>
 
                 
             <h3>Find out more</h3>
