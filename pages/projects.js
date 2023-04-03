@@ -12,6 +12,7 @@ import todo from '../static/todo.jpg';
 import portfolio from '../static/portfolio.jpg';
 import hoppers from '../static/hoppers.png';
 import wedding from '../static/wedding.jpeg';
+import trees from '../static/trees.jpg';
 import lifestyle from '../static/lifestyle.jpeg';
 import graphic from '../static/graphic.png';
 import GitHub from '../static/GitHub.png';
@@ -26,6 +27,16 @@ const Projects = () => {
                 <div className = "container" >
                      
                 <div className="grid">
+
+            <Link target="_blank" href = "https://trees-trees.vercel.app/" className='projectLink'>
+                <div className="gallery projectLink">
+                <Image className='img' src ={trees} />
+                <div className='desc'><b>TREES TREES</b>
+                
+                </div>
+                <p>'Work in Progress': TREES TRESS Silver Bullet Canteen in Thessaloniki, Greece.<br></br><br></br> (Responsive)</p>
+                </div>
+            </Link>
 
             <Link target="_blank" href = "https://island-hoppers.herokuapp.com/" className='projectLink'>
                 <div className="gallery projectLink">
@@ -298,16 +309,19 @@ const Projects = () => {
               }
         }
 
+        
         `}</style>
+ 
+    
+ 
+        
 
+        
+       
          </div>
      );
 }
  
 export default Projects;
-
-
-
-
 
 
