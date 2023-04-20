@@ -61,7 +61,7 @@ const Projects = () => {
             <Link target="_blank" href = "https://next-js-star-wars.vercel.app/" className='projectLink' >
                 <div className="gallery">
                 <Image className='img' src ={starwars}  />
-                <div className='desc'><b>Start Wars </b>
+                <div className='desc'><b>Star Wars </b>
                 <Link target="_blank" href = "https://github.com/paulgreenwood67/NextJS---Star-Wars" className='gitHubLink'><Image className='gitHub' src ={GitHub} /></Link>
                 </div>
                 <p>This a NextJS app displaying Star Wars data from an API called SWAPI. This application is deployed on Vercel.<br></br><br></br> (Partially responsive)</p>
