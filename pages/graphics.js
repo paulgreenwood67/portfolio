@@ -31,7 +31,6 @@ import fht2 from '../static/fht2.mp4';
 const Projects = () => {
     return ( 
                 <div className = "container" >
-               
                 <div className="grid">
         
                <h3>Park signage for Lancashire Wildlife Trust</h3>
