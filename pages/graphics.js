@@ -41,10 +41,7 @@ const Projects = () => {
     <video src={require('../static/fht1.mp4')} />
   </div>
 
-        <video width="640" height="360" controls>
-          <source src={fht2} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+       
            
                <h3>Park signage for Lancashire Wildlife Trust</h3>
                 <Image className='graphic' src ={Haslam1} />
