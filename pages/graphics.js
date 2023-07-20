@@ -27,6 +27,7 @@ import fht2 from '../static/fht2.mp4';
 
 
 
+
 const Projects = () => {
     return ( 
                 <div className = "container" >
@@ -35,12 +36,17 @@ const Projects = () => {
                      
 
                <h3>Social assets for the Freshwater Habitat Trust</h3>
-         <video controls width="640" height="360">
-        <source src={fht1} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-                <Image className='graphic' src ={fht1} />
-                <Image className='graphic' src ={fht2} />    
+
+           <video width="640" height="360" controls>
+          <source src={fht1} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <video width="640" height="360" controls>
+          <source src={fht2} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+           
                <h3>Park signage for Lancashire Wildlife Trust</h3>
                 <Image className='graphic' src ={Haslam1} />
                 <Image className='graphic' src ={Haslam2} />
