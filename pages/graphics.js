@@ -37,10 +37,9 @@ const Projects = () => {
 
                <h3>Social assets for the Freshwater Habitat Trust</h3>
 
-           <video width="640" height="360" controls>
-          <source src={fht1} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+         <div>
+    <video src={require('../static/fht1.mp4')} />
+  </div>
 
         <video width="640" height="360" controls>
           <source src={fht2} type="video/mp4" />
