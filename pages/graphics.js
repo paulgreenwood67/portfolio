@@ -37,9 +37,6 @@ const Projects = () => {
 
                <h3>Social assets for the Freshwater Habitat Trust - test1</h3>
 
-         <div>
-    <video src={require('../static/fht1.mp4')} />
-  </div>
 
        
            
