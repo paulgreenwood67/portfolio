@@ -22,8 +22,8 @@ import stand from '../static/stand.jpg';
 import handyman from '../static/handyman.jpg';
 import ladies from '../static/ladies.jpg';
 import livingcanal from '../static/livingcanal.jpeg';
-import FHT1 from '../static/interview - facebook 1.mp4';
-import FHT2 from '../static/twitter interview.mp4';
+import fht1 from '../static/interview - facebook 1.mp4';
+import fht2 from '../static/twitter interview.mp4';
 
 
 const Projects = () => {
@@ -34,8 +34,8 @@ const Projects = () => {
                      
 
                <h3>Social assets for the Freshwater Habitat Trust</h3>
-                <Image className='graphic' src ={FHT1} />
-                <Image className='graphic' src ={FHT2} />
+                <Image className='graphic' src ={fht1} />
+                <Image className='graphic' src ={fht2} />
                <h3>Park signage for Lancashire Wildlife Trust</h3>
                 <Image className='graphic' src ={Haslam1} />
                 <Image className='graphic' src ={Haslam2} />
