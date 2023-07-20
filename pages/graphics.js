@@ -35,7 +35,7 @@ const Projects = () => {
                 <div className="grid">
                      
 
-               <h3>Social assets for the Freshwater Habitat Trust - test1</h3>
+               <h3>Social assets for the Freshwater Habitat Trust test1</h3>
 
 
        
