@@ -31,7 +31,6 @@ const Projects = () => {
     return ( 
                 <div className = "container" >
                 <div className="grid">
-        
                <h3>Park signage for Lancashire Wildlife Trust</h3>
                 <Image className='graphic' src ={Haslam1} />
                 <Image className='graphic' src ={Haslam2} />
