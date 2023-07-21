@@ -22,8 +22,7 @@ import stand from '../static/stand.jpg';
 import handyman from '../static/handyman.jpg';
 import ladies from '../static/ladies.jpg';
 import livingcanal from '../static/livingcanal.jpeg';
-import fht1 from '../static/fht1.mp4';
-import fht2 from '../static/fht2.mp4';
+
 
 
 
