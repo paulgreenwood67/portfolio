@@ -36,7 +36,7 @@ const Projects = () => {
 
         <h3>test<h3/>
       <video controls>
-        <source src='../static/fht1.mp4' type="video/mp4" />
+        <source src="../static/fht1.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
                <h3>Park signage for Lancashire Wildlife Trust</h3>
