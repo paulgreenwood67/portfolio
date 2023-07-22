@@ -146,6 +146,11 @@ const Projects = () => {
                 grid-gap:1px 1px; 
                 margin-left: 0px;
             }
+             video{
+            width: 300px;
+           
+            }
+
         }
 
         @media screen and (max-width: 360px){
