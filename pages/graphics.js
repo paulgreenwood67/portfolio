@@ -38,7 +38,7 @@ const Projects = () => {
                         <source src="/static/videos/fht1.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-        <br>
+        <h3></h3>
                     <video controls width="500">
                         <source src="/static/videos/fht2.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
