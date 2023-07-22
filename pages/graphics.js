@@ -132,7 +132,7 @@ const Projects = () => {
                 align-items: center;
 }
             video{
-            width 100px
+            width: 200px
             }
 
 
