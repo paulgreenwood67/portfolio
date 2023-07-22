@@ -34,12 +34,12 @@ const Projects = () => {
                 <div className = "container" >
                 <div className="grid">
                 <h3>Social media assets for the Freshwater Habitat Trust</h3>
-                    <video controls width="500">
+                    <video className="video" controls width="500">
                         <source src="/static/videos/fht1.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
         <h3></h3>
-                    <video controls width="500">
+                    <video className="video" controls width="500">
                         <source src="/static/videos/fht2.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -123,6 +123,11 @@ const Projects = () => {
                 margin-top: 30px;
                 align-items: center;
 }
+            .video{
+            width 400px
+            }
+
+
     
 }
         @media screen and (max-width: 414px){
