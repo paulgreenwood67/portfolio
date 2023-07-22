@@ -108,9 +108,6 @@ const Projects = () => {
             margin-bottom: 10px
         }
 
-           .video{
-            width 300px
-            }
      
         @media screen and (max-width: 912px){
                 
@@ -130,7 +127,7 @@ const Projects = () => {
                 margin-top: 30px;
                 align-items: center;
 }
-            .video{
+            video{
             width 100px
             }
 
