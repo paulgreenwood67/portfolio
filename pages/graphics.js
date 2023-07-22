@@ -133,7 +133,7 @@ const Projects = () => {
 }
             video{
             width: 350px;
-            margin-left: 40px;
+            margin-left: 20px;
             }
 
 
