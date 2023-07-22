@@ -132,8 +132,8 @@ const Projects = () => {
                 align-items: center;
 }
             video{
-            width: 400px
-            margin-left:50px
+            width: 400px;
+            margin-left:50px;
             }
 
 
