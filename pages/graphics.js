@@ -109,7 +109,7 @@ const Projects = () => {
         }
 
         video{
-        control-width: 500px
+         width: 500px
         }
 
      
