@@ -35,12 +35,12 @@ const Projects = () => {
                 <div className="grid">
                 <h3>Social media assets for the Freshwater Habitat Trust</h3>
      
-                    <video control width "500">
+                    <video control width ="500">
                         <source src="/static/videos/fht1.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
         <h3></h3>
-                    <video control width "500">
+                    <video control width ="500">
                         <source src="/static/videos/fht2.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
