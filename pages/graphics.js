@@ -34,12 +34,12 @@ const Projects = () => {
                 <div className = "container" >
                 <div className="grid">
                 <h3>Social media assets for the Freshwater Habitat Trust</h3>
-                    <video className="video" controls width="500">
+                    <video className="video">
                         <source src="/static/videos/fht1.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
         <h3></h3>
-                    <video className="video" controls width="500">
+                    <video className="video" >
                         <source src="/static/videos/fht2.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -104,6 +104,10 @@ const Projects = () => {
         h3{
             margin-bottom: 10px
         }
+
+           .video{
+            width 500px
+            }
      
         @media screen and (max-width: 912px){
                 
@@ -124,7 +128,7 @@ const Projects = () => {
                 align-items: center;
 }
             .video{
-            controls width 100px
+            width 300px
             }
 
 
