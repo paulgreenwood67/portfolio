@@ -124,7 +124,7 @@ const Projects = () => {
                 align-items: center;
 }
             .video{
-            width 100px
+            controls width 100px
             }
 
 
