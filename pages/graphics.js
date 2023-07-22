@@ -34,17 +34,17 @@ const Projects = () => {
                 <div className = "container" >
                 <div className="grid">
                 <h3>Social media assets for the Freshwater Habitat Trust</h3>
-        <div className="video">
-                    <video>
+     
+                    <video control width "500">
                         <source src="/static/videos/fht1.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
         <h3></h3>
-                    <video>
+                    <video control width "500">
                         <source src="/static/videos/fht2.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-        </div>
+   
          <h3></h3>
                 <h3>Park signage for Lancashire Wildlife Trust</h3>
                 <Image className='graphic' src ={Haslam1} />
