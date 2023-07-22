@@ -106,7 +106,7 @@ const Projects = () => {
         }
 
            .video{
-            control width 500px
+            control width 300px
             }
      
         @media screen and (max-width: 912px){
